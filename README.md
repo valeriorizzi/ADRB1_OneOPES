@@ -10,8 +10,10 @@ The repository contains the necessary files to reproduce the OneOPES simulations
 
 The main directories include:
 
-- `bpnp_MOR`: input files for buprenorphine/MOR
-- `endo_MOR`: input files for endomorphin-1/MOR
+- `apoADRB1`: input files for apo/ADRB1 (with unprotonated D2.50)
+- `apoADRB1_ASPH`: input files for apo/ADRB1 (with protonated D2.50)
+- `apoADRB1_NA`: input files for apo/ADRB1 (in which we sample both GPCR activation and NA-D2.50 binding process)
+- `holoADRB1`: input files for adrenaline-bound/ADRB1
 
 Each directory contains the necessary input files to run the simulations, including:
 
