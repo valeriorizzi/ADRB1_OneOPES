@@ -28,5 +28,5 @@ Each directory contains the necessary input files to run the simulations, includ
 The simulations are organized as 8 parallel replicas (i.e., 0 to 7) and can be run using a command similar to:
 
 ```
-mpirun -n 8 gmx_mpi mdrun -deffnm md_1 -notunepme -pin on -multidir ./0 ./1 ./2 ./3 ./4 ./5 ./6 ./7 -hrex -replex 5000 -plumed plumed.dat
+mpirun -n 8 gmx_mpi mdrun -s prd.tpr -deffnm prd -notunepme -pin on -multidir ./0 ./1 ./2 ./3 ./4 ./5 ./6 ./7 -hrex -replex 5000 -plumed plumed.dat
 ```
